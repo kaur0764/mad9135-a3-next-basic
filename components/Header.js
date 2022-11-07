@@ -5,7 +5,12 @@ function Header() {
     <header>
       <h1>
         <a href="./">
-          <Image src="/logo.png" alt="Company Name" width={32} height={48} />
+          <Image
+            src="/images/logo.png"
+            alt="Company Name"
+            width={32}
+            height={48}
+          />
           <p>Madd</p>
         </a>
       </h1>

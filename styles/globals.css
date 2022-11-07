@@ -40,7 +40,7 @@ ul{
 }
 
 header{
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   border-bottom: 1px solid var(--color-primary-light);
   text-align: center;
   background-color: var(--color-primary-darker);
