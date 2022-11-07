@@ -1,31 +1,42 @@
-.container {
-  padding: 0 2rem;
+.container { 
+  background-color: #414A89;
+  overflow: hidden;
 }
 
-.main {
-  min-height: 100vh;
+.main header{
+  min-height: 80vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
+  background-image: linear-gradient(to bottom,#262f6ba1, #0007), url("/images/banner.png"); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+.container section {
+  padding: 4rem 2rem;
+  padding-top: 6rem;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.main header button{
+  color: var(--color-primary-darker);
+  font-size: 1.2rem;
+  background-color: #fff;
+  border: 1px solid var(--color-primary-darker);
+  border-radius: 5px;
+  padding: 0.3rem 0.6rem;
+  transition: 0.3s;
+}
+
+.main button:hover,
+.main button:active{
+  background-color: var(--color-primary-darker);
+  color: #fff;
 }
 
 .title a {
@@ -42,18 +53,26 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .title,
-.description {
+.description,
+.heading {
   text-align: center;
+  color: #fff;
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 3rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+}
+
+.heading{
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
 }
 
 .code {
