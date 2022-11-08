@@ -5,7 +5,7 @@ export const team = [
     title: "Founder & CEO",
     email: "Graham@madd.biz",
     phone: "(644)344-8643",
-    img: "/images/profileOne.jpg", //https://www.pexels.com/photo/shallow-focus-photo-of-woman-in-gray-white-and-brown-striped-button-up-shirt-2726111/
+    img: "/images/profileOne.png", //https://www.pexels.com/photo/portrait-of-a-confident-woman-wearing-bright-jacket-in-an-office-7964415/
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ export const team = [
     title: "Frontend Developer",
     email: "Lebsac@madd.biz",
     phone: "(234)934-1354",
-    img: "/images/profileFour.jpg", //https://www.pexels.com/photo/an-elderly-woman-in-white-shirt-wearing-an-eyeglasses-8307331/
+    img: "/images/profileFour.jpg", //https://www.pexels.com/photo/contemplative-ethnic-woman-with-curly-hair-in-snowfall-7585607/
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const team = [
     title: "Backend developer",
     email: "Dietrich@madd.biz",
     phone: "(254)954-1289",
-    img: "/images/profileFive.jpg", //https://www.pexels.com/photo/woman-in-collared-shirt-774909/
+    img: "/images/profileFive.png", //https://www.pexels.com/photo/woman-in-collared-shirt-774909/
   },
   {
     id: 6,
@@ -74,7 +74,8 @@ export const team = [
   {
     id: 10,
     name: "Yoona DuBuque",
-    email: "Product Designer",
+    title: "Product Designer",
+    email: "Yoona@madd.biz",
     phone: "024-648-3804",
     img: "/images/profileTen.jpg", //https://www.pexels.com/photo/woman-in-pink-blazer-and-green-earrings-10669639/
   },
