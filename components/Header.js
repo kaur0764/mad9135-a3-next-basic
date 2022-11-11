@@ -7,11 +7,11 @@ function Header() {
         <a href="./">
           <Image
             src="/images/logo.png"
-            alt="Company Name"
-            width={32}
-            height={48}
+            alt="Madd logo"
+            width={36}
+            height={52}
           />
-          <p>Madd</p>
+          <p>add</p>
         </a>
       </h1>
       <Navbar />

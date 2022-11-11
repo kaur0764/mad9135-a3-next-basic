@@ -1,14 +1,13 @@
 import Image from "next/image";
-import Team from "../pages/team";
 import styles from "../styles/Team.module.css";
 
-function Card({ item }) {
+function TeamCard({ item }) {
   return (
     <div className={styles.card}>
       <div>
-        <Image src={item.img} alt={item.name} width={154} height={154} />
+        <Image src={item.img} alt="" width={154} height={154} />
       </div>
-      <h2>{item.name}</h2>
+      <h3>{item.name}</h3>
       <p>{item.title}</p>
       <p>{item.email}</p>
       <p>{item.phone}</p>
@@ -16,4 +15,4 @@ function Card({ item }) {
   );
 }
 
-export default Card;
+export default TeamCard;

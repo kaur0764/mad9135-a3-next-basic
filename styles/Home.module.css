@@ -19,24 +19,30 @@
 }
 
 .container section {
-  padding: 4rem 2rem;
-  padding-top: 6rem;
+  padding: 5rem 2rem;
 }
 
 .main header button{
   color: var(--color-primary-darker);
-  font-size: 1.2rem;
   background-color: #fff;
-  border: 1px solid var(--color-primary-darker);
+  font-size: 1rem;
+  border: 1px solid #fff;
   border-radius: 5px;
   padding: 0.3rem 0.6rem;
   transition: 0.3s;
+}
+
+.main p{
+  font-size: 1.3rem;
+  margin: 0;
+  margin-bottom: 2rem;
 }
 
 .main button:hover,
 .main button:active{
   background-color: var(--color-primary-darker);
   color: #fff;
+  border-color: var(--color-primary-darker);;
 }
 
 .title a {
@@ -52,8 +58,6 @@
 
 .title {
   margin: 0;
-  line-height: 1.15;
-  font-size: 3rem;
 }
 
 .title,
@@ -64,22 +68,17 @@
 }
 
 .description {
-  margin: 3rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+  margin: 2rem 0;
 }
 
 .heading{
   margin: 0;
-  line-height: 1.15;
-  font-size: 2rem;
 }
 
 .code {
   background: #fafafa;
   border-radius: 5px;
   padding: 0.75rem;
-  font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }

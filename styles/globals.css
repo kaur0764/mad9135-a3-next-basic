@@ -5,12 +5,127 @@
   --color-primary-dark: #454F8C;
   --color-primary-darker:#262f6b;
 }
+
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #414A89;
+  color: #fff;
+  line-height: 1.5;
+  min-width: 20rem;
+}
+
+/* ----------------- Type hierarchy ----------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0 0 1.5rem;
+}
+
+h1 {
+  font-size: 1.802rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.602rem;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.424rem;
+}
+
+h4 {
+  font-size: 1.266rem;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 1.125rem;
+  color: var(--color-primary);
+  border-bottom: 1px solid #ccc;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+small {
+  font-size: 0.889rem;
+}
+
+@media only screen and (min-width: 45em) {
+
+  /* ---------- Tablet ---------- */
+  h1 {
+    font-size: 2.488rem;
+  }
+
+  h2 {
+    font-size: 2.074rem;
+  }
+
+  h3 {
+    font-size: 1.728rem;
+  }
+
+  h4 {
+    font-size: 1.44rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+
+  small {
+    font-size: 0.833rem;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  /* ---------- Desktop ---------- */
+  h1 {
+    font-size: 3.052rem;
+  }
+
+  h2 {
+    font-size: 2.441rem;
+  }
+
+  h3 {
+    font-size: 1.953rem;
+  }
+
+  h4 {
+    font-size: 1.563rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  small {
+    font-size: 0.8rem;
+  }
 }
 
 a {
@@ -26,45 +141,47 @@ ul{
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-  header img {
-    filter: invert(1);
-  }
-}
-
 header{
-  padding: 1rem 1rem;
+  padding: 1rem 2rem;
   border-bottom: 1px solid var(--color-primary-light);
   text-align: center;
   background-color: var(--color-primary-darker);
   color: #fff;
+  margin: 0 auto;
 }
 
 header a{
   color: #fff;
+  margin: 0 auto;
 }
 
 header h1 a{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:baseline;
   font-weight: 100;
-  gap:0.5rem
+  gap:0.2rem;
+  text-transform: none;
+}
+
+header h1 a p{
+  margin: 0;
+  font-size: 3rem;
 }
 
 h1{
   margin: 0rem;
+  font-size: 3.052rem;
 }
 
-header img{
-  margin-left: 0.5rem;
+h2{
+  margin: 0;
+  padding: 1rem 0rem;
+  padding-top: 2rem;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
 }
 
 nav{

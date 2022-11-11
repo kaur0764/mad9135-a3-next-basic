@@ -12,14 +12,14 @@ export default function Home() {
 
       <main className={styles.main}>
         <header>
-          <h1 className={styles.title}>Bring your ideas to life</h1>
+          <h2 className={styles.title}>Bring your ideas to life</h2>
           <p className={styles.description}>We create best digital products.</p>
           <button>Get Started</button>
         </header>
         <section>
-          <h2 className={styles.heading}>
+          <h3 className={styles.heading}>
             We are leaders in web and mobile design and development.
-          </h2>
+          </h3>
           <p className={styles.description}>
             We create websites, applications, 3D design, motion design and
             animation. We bring the most daring ideas to life.
