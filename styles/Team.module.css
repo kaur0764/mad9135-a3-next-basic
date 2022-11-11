@@ -37,7 +37,7 @@
   overflow: hidden;
 }
 
-.card img{
+.img{
+  width: 154px;
   height: auto;
-  width: 100%;
 }

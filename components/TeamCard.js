@@ -5,7 +5,13 @@ function TeamCard({ item }) {
   return (
     <div className={styles.card}>
       <div>
-        <Image src={item.img} alt="" width={154} height={154} />
+        <Image
+          className={styles.img}
+          src={item.img}
+          alt=""
+          width={155}
+          height={155}
+        />
       </div>
       <h3>{item.name}</h3>
       <p>{item.title}</p>
