@@ -1,4 +1,4 @@
-import Navbar from "./NavBar";
+import Navbar from "./Navbar";
 import Image from "next/image";
 function Header() {
   return (
