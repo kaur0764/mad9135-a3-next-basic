@@ -4,7 +4,7 @@ function Header() {
   return (
     <header>
       <h1>
-        <a href="./">
+        <a href="/">
           <Image
             src="/images/logo.png"
             alt="Madd logo"
