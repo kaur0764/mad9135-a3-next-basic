@@ -1,10 +1,12 @@
 import Navbar from "./Navbar";
+import Link from "next/link";
 import Image from "next/image";
+
 function Header() {
   return (
     <header>
       <h1>
-        <a href="/">
+        <Link href="/">
           <Image
             src="/images/logo.png"
             alt="Madd logo"
@@ -12,7 +14,7 @@ function Header() {
             height={52}
           />
           <p>add</p>
-        </a>
+        </Link>
       </h1>
       <Navbar />
     </header>

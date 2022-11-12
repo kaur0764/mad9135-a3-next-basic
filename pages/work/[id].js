@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import styles from "../../styles/Work.module.css";
 
 export default function Details({ project }) {
@@ -23,7 +24,7 @@ export default function Details({ project }) {
         <h2>Project Details</h2>
         <h3>{project.name}</h3>
         <div>
-          <img
+          <Image
             src={project.owner.avatar_url}
             alt={project.name}
             width={260}
