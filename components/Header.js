@@ -10,10 +10,9 @@ function Header() {
           <Image
             src="/images/logo.png"
             alt="Madd logo"
-            width={36}
-            height={52}
+            width={116}
+            height={60}
           />
-          <p>add</p>
         </Link>
       </h1>
       <Navbar />
